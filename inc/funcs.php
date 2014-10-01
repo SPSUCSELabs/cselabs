@@ -44,4 +44,23 @@ function optimizeImage($url,$quality = 70)
 	return 0;
 }
 
+/**
+ * @brief includes the given page path
+ * 
+ * this function is a wrapper around include_once()
+ *
+ * @param path - 
+ *
+ * @return void
+ * 
+ */
+void incPage(string path)
+{
+	global $conf;
+	Path = $conf['INCPATH'].'/'.path.'php';
+
+	if(file_exists(Path))
+		include_once(Path);
+}
+
 ?>

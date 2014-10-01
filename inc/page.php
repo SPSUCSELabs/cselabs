@@ -16,31 +16,39 @@ include("inc/funcs.php");
 <html>
 <head>
 	<!-- *************HEADER************** -->
-	<?php include_once('inc/head.php'); ?>
+	<?php incPage("head"); ?>
 </head>
 <body>
 
 <!-- ******************** NAVBAR ******************** -->
-<?php	require_once('inc/navbar.php'); ?>
+<?php incPage("navbar"); ?>
 <!-- /NAVBAR -->
 
 <!-- ******************** CONTENT ******************** -->
 <div id="page_content">
-	<?php	include($pagepath); ?>
+	<div class="container">
+		<!-- ******************** banner ******************** -->
+		<div class="row">
+			<?php incPage("banner"); ?>
+		</div>
+		<!-- /banner -->
+	
+		<!-- ******************** features ******************** -->
+		<div class="row">
+			<?php	include($pagepath); ?>
+		</div>
+		<!-- /features -->
+	</div>
 </div><!-- /page_content --!>
 <!-- /CONTENT -->
 
 <!-- ******************** FOOTER ******************** -->
-<?php include('inc/footer.php'); ?>
+<?php incPage("footer"); ?>
 <!-- /FOOTER -->
 
 <!-- ******************** SCRIPTS ******************** -->
-<?php	include('inc/scripts.php'); ?>
+<?php incPage("scripts"); ?>
 <!-- /SCRIPTS -->
 
-<?php if($DEBUG): ?>
-<!-- ******************** DEBUG ******************** -->
-<!-- /DEBUG -->
-<?php endif; ?>
 </body>
 </html>
