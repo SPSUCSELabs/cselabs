@@ -12,6 +12,7 @@ global $login;
 
 include("inc/funcs.php");
 ?>
+<!DOCTYPE html>
 
 <html>
 <head>

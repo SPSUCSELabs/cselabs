@@ -12,6 +12,8 @@ $cache = true;
 /* get the requested page name */
 if(isset($_GET['pageid']))
 	$_SESSION['pageid'] = @$_GET['pageid'];
+else
+	$_SESSION['pageid'] = 'home';
 
 //build the page path
 $pagepath = $conf['PAGESPATH']."/".$_SESSION['pageid'].".php";
@@ -29,8 +31,7 @@ if(isset($_SESSION['login']) && $_SESSION['login'])
 else
 	$cachefile = $conf['CACHEPATH']."/".$_SESSION['pageid'].".cache";
 
-if(!file_exists($cachefile) || filemtime($pagepath) > filemtime($cachefile)
-		|| filemtime($conf['CONFPATH']."/navbar.conf") > filemtime($pagepath))
+if(!file_exists($cachefile) || filemtime($pagepath) > filemtime($cachefile))
 	$cache = false;
 
 

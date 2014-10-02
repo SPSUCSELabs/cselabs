@@ -9,6 +9,6 @@ global $conf
 //set the current page tab
 $(function()
 {
-	$("#nav ul #<?php echo $conf['PAGEID']; ?>").addClass("current_page_item");
+	$("#nav ul #<?php echo $_SESSION['pageid']; ?>").addClass("current_page_item");
 });
 </script>

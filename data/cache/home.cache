@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<!-- *************HEADER************** -->
+	<title>SPSU CSE Labs</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700" rel="stylesheet" />
+<script src="js/jquery.min.js"></script>
+<script src="js/config.js"></script>
+<script src="js/skel.min.js"></script>
+<script src="js/skel-panels.min.js"></script>
+<noscript>
+	<link rel="stylesheet" href="css/skel-noscript.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/style-desktop.css" />
+</noscript>
+<!--[if lte IE 9]><link rel="stylesheet" href="css/style-ie9.css" /><![endif]-->
+<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+
+</head>
+<body>
+
+<!-- ******************** NAVBAR ******************** -->
+
+<div id="header-wrapper">
+	<header class="container" id="site-header">
+		<div class="row">
+			<div class="12u">
+				<div id="logo">
+					<h1>CSE Labs</h1>
+				</div>
+				<nav id="nav">
+					<ul>
+						<li id="home"><a href="index.html">Homepage</a></li>
+						<li id="labInfo"><a href="labinfo.html">Lab Info</a></li>
+						<li id="faculty"><a href="faculty.html">Faculty</a></li>
+						<li id="staff"><a href="staff.html">Staff</a></li>
+						<li id="advisors"><a href="advisors.html">Advisers</a></li>
+						<li id="waitlist"><a href="Waitlist\default.aspx">Waitlist</a></li>
+						<li id="virtualMachines"><a href="vms.html">Virtual Machines</a></li>
+						<li id="studentOrgs"><a href="clubs.html">Student Organizations</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+</div>
+
+
+
+<!-- /NAVBAR -->
+
+<!-- ******************** CONTENT ******************** -->
+<div id="page_content">
+	<div class="container">
+		<!-- ******************** banner ******************** -->
+		<div class="row">
+			<div class="12u">
+	<div id="banner">
+		<a href="#"><img src="images/banner.jpg" alt="" /></a>
+		<div class="caption">
+			<a href="http://csehesk.spsu.edu/" class="button">CSE Help Desk</a>
+			<!-- <a href="http://csehesk.spsu.edu/" class="button">CSE Help Desk</a> -->
+		</div>
+	</div>
+</div>
+		</div>
+		<!-- /banner -->
+	
+		<!-- ******************** features ******************** -->
+		<div class="row">
+			<div class="3u">
+	<section class="first">
+		<h2>Greg Scott</h2>
+		<p>Director of CSE Technology</p>
+	</section>							
+</div>
+<div class="3u">
+	<section>
+		<h2>Christine Bryant</h2>
+		<p>CSE Lab Manager</p>
+	</section>							
+</div>
+<div class="3u">
+	<section>
+		<h2>Ron Sweatland</h2>
+		<p>Director of CSE Data Center Operations <br />Director of the Academic Research Network</p>
+	</section>							
+</div>
+<div class="3u">
+	<section class="last">
+		<h2>Student Lab Managers</h2>
+		
+		<ul>
+		  <li>Brittany McGriff</li>
+		  <li>John Eidson</li>
+		</ul>
+		
+	</section>							
+</div>
+		</div>
+		<!-- /features -->
+	</div>
+</div><!-- /page_content --!>
+<!-- /CONTENT -->
+
+<!-- ******************** FOOTER ******************** -->
+<!-- LOGIN MODAL -->
+<div id="footer-wrapper">
+	<footer class="container" id="site-footer">
+		
+
+		<div class="row">
+			<div class="12u">
+				<div id="copyright">
+					Southern Polytechnic State University | School of Computing & Software Engineering | CSE Labs - 2014
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+<!-- /FOOTER -->
+
+<!-- ******************** SCRIPTS ******************** -->
+<script>
+//set the current page tab
+$(function()
+{
+	$("#nav ul #home").addClass("current_page_item");
+});
+</script>
+<!-- /SCRIPTS -->
+
+</body>
+</html>
+<!-- PAGE CREATED ON: Thu, 02 Oct 2014 14:42:11 +0000-->

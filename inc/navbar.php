@@ -15,7 +15,7 @@
 				</div>
 				<nav id="nav">
 					<ul>
-						<li id="homepage"><a href="index.html">Homepage</a></li>
+						<li id="home"><a href="index.html">Homepage</a></li>
 						<li id="labInfo"><a href="labinfo.html">Lab Info</a></li>
 						<li id="faculty"><a href="faculty.html">Faculty</a></li>
 						<li id="staff"><a href="staff.html">Staff</a></li>

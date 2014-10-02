@@ -54,13 +54,13 @@ function optimizeImage($url,$quality = 70)
  * @return void
  * 
  */
-void incPage(string path)
+function incPage($path)
 {
 	global $conf;
-	Path = $conf['INCPATH'].'/'.path.'php';
+	$Path = $conf['INCPATH'].'/'.$path.'.php';
 
-	if(file_exists(Path))
-		include_once(Path);
+	if(file_exists($Path))
+		include_once($Path);
 }
 
 ?>
