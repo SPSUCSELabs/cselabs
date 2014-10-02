@@ -31,6 +31,7 @@ if(isset($_SESSION['login']) && $_SESSION['login'])
 else
 	$cachefile = $conf['CACHEPATH']."/".$_SESSION['pageid'].".cache";
 
+/**/
 if(!file_exists($cachefile) || filemtime($pagepath) > filemtime($cachefile))
 	$cache = false;
 
