@@ -71,37 +71,42 @@
 		<!-- /banner -->
 	
 		<!-- ******************** features ******************** -->
-		<div class="row">
+					<!-- 
+			ACM - Association of Computing Machinery (Pat Pierce)
+			AITP - Association of IT Professionals (Dawn Tatum)
+			SPISA - Information Security Association (Svetlana Peltsverger)
+			GGDA - GA Game Designers Association (Jon Preston)
+			-->
+<div class="row">
 	<div class="3u">
 		<section class="first">
-			<h2>Greg Scott</h2>
-			<p>Director of CSE Technology</p>
+			<h2>ACM<br />Association of Computing Machinery</h2>
+			<p>Dr. Mike Franklin </p>
 		</section>							
 	</div>
 	<div class="3u">
 		<section>
-			<h2>Christine Bryant</h2>
-			<p>CSE Lab Manager</p>
+			<h2>AITP<br />Association of IT Professionals</h2>
+			<p>Dr. Jack Zheng</p>
+			<p>Professor Dawn Tatum</p>
 		</section>							
 	</div>
 	<div class="3u">
 		<section>
-			<h2>Ron Sweatland</h2>
-			<p>Director of CSE Data Center Operations <br />Director of the Academic Research Network</p>
+			<h2>SPISA<br />Information Security Association</h2>
+			<p>Professor Susan Vande Van<br /> Professor Dawn Tatum</p>
 		</section>							
 	</div>
 	<div class="3u">
 		<section class="last">
-			<h2>Student Lab Managers</h2>
+			<h2>GGDA<br />GA Game Designers Association</h2>
+			<p>Dr. Jon Preston</p>
 			
-			<ul>
-			  <li>Brittany McGriff</li>
-			  <li>John Eidson</li>
-			</ul>
 			
 		</section>							
 	</div>
 </div>
+
 		<!-- /features -->
 	</div>
 </div><!-- /page_content --!>
@@ -129,11 +134,11 @@
 //set the current page tab
 $(function()
 {
-	$("#nav ul #home").addClass("current_page_item");
+	$("#nav ul #clubs").addClass("current_page_item");
 });
 </script>
 <!-- /SCRIPTS -->
 
 </body>
 </html>
-<!-- PAGE CREATED ON: Thu, 02 Oct 2014 15:24:46 +0000-->
+<!-- PAGE CREATED ON: Thu, 02 Oct 2014 15:26:04 +0000-->

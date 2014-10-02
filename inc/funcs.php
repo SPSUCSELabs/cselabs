@@ -63,4 +63,26 @@ function incPage($path)
 		include_once($Path);
 }
 
+/**
+ * @brief creates a page link and echos it
+ *
+ * if a the pageid is invalid then nothing will be printed 
+ * 
+ */
+function pageLink($pageid)
+{
+	global $conf;
+	$path = $conf['PAGESPATH']."/".$pageid.".php";
+
+	//check if valid file exists
+	if(!file_exists($path))
+	{
+		$path = $conf['PAGESPATH']."/".$pageid.".html";
+		if(!file_exists($path))
+			return;
+	}
+
+	echo $conf['LINKPATH'].$pageid;
+}
+
 ?>

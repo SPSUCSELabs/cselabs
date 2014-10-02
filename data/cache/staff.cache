@@ -74,33 +74,29 @@
 		<div class="row">
 	<div class="3u">
 		<section class="first">
-			<h2>Greg Scott</h2>
-			<p>Director of CSE Technology</p>
+			<h2>Faith Gonzales</h2>
+			<p>Administrative Assistant - CSE Deans Office</p>
 		</section>							
 	</div>
 	<div class="3u">
 		<section>
-			<h2>Christine Bryant</h2>
-			<p>CSE Lab Manager</p>
+			<h2>Jasmine Watkins</h2>
+			<p>Administrative Assistant - CSE IT Office</p>
 		</section>							
 	</div>
 	<div class="3u">
 		<section>
-			<h2>Ron Sweatland</h2>
-			<p>Director of CSE Data Center Operations <br />Director of the Academic Research Network</p>
+			<h2>Susan Bentzen-Gordet</h2>
+			<p>Administrative Assistant - CSCWE Office</p>
 		</section>							
 	</div>
 	<div class="3u">
-		<section class="last">
-			<h2>Student Lab Managers</h2>
-			
-			<ul>
-			  <li>Brittany McGriff</li>
-			  <li>John Eidson</li>
-			</ul>
-			
+		<section>
+			<h2>Marliee McClure</h2>
+			<p>Technical Administrator - University Systems</p>
 		</section>							
 	</div>
+
 </div>
 		<!-- /features -->
 	</div>
@@ -129,11 +125,11 @@
 //set the current page tab
 $(function()
 {
-	$("#nav ul #home").addClass("current_page_item");
+	$("#nav ul #staff").addClass("current_page_item");
 });
 </script>
 <!-- /SCRIPTS -->
 
 </body>
 </html>
-<!-- PAGE CREATED ON: Thu, 02 Oct 2014 15:24:46 +0000-->
+<!-- PAGE CREATED ON: Thu, 02 Oct 2014 15:24:52 +0000-->

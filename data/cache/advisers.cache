@@ -71,37 +71,24 @@
 		<!-- /banner -->
 	
 		<!-- ******************** features ******************** -->
-		<div class="row">
-	<div class="3u">
-		<section class="first">
-			<h2>Greg Scott</h2>
-			<p>Director of CSE Technology</p>
-		</section>							
-	</div>
-	<div class="3u">
-		<section>
-			<h2>Christine Bryant</h2>
-			<p>CSE Lab Manager</p>
-		</section>							
-	</div>
-	<div class="3u">
-		<section>
-			<h2>Ron Sweatland</h2>
-			<p>Director of CSE Data Center Operations <br />Director of the Academic Research Network</p>
-		</section>							
-	</div>
-	<div class="3u">
-		<section class="last">
-			<h2>Student Lab Managers</h2>
-			
-			<ul>
-			  <li>Brittany McGriff</li>
-			  <li>John Eidson</li>
-			</ul>
-			
-		</section>							
-	</div>
-</div>
+		<p><font size="7" color="black"><u>Professional Advisers</u></font></p><br />
+
+<div class="row">
+	<img src="images/blank.png" alt="" /><div id="content" style="height:200px;width:250px;float:left;"><h2>Ms. Beth Haynie</h2><p class="small">Computer Science, Software Engineering and Computer Game Design and Development</p></div>
+	<img src="images/blank.png" alt="" /><div id="content" style="height:200px;width:250px;float:left;"><h2>Ms. Ashley McClure</h2><p class="small">Information Technology</p></div>
+	<img src="images/martina.jpg" alt="" /><div id="content" style="height:200px;width:300px;float:left;"><h2>Ms. Martina McWilliams</h2><p class="small">School of Arts and Sciences<br />Office Suite J-353<br />Room 353a Building J<br /> office (678)915-3727<br />mmcwilli@spsu.edu</p></div>
+</div>	
+<p><font size="7" color="black"><u>Faculty Advisers</u></font></p><br />
+<div class="row">
+	<img src="images/blank.png" alt="" /><div id="content" style="height:200px;width:250px;float:left;"><h2>Professor Pat Pierce</h2><p class="small">Undergrad Computer Science </p></div>
+	<img src="images/blank.png" alt="" /><div id="content" style="height:200px;width:250px;float:left;"><h2>Dr. Jonathan Lartigue</h2><p class="small">Undergrad / Grad Software Engineering</p></div>
+	<img src="images/blank.png" alt="" /><div id="content" style="height:200px;width:250px;float:left;"><h2>Dr. Jon Preston</h2><p class="small">Computer Game Design and Development</p></div>
+	<img src="images/blank.png" alt="" /><div id="content" style="height:200px;width:250px;float:left;"><h2>Dr. Chi Zhang</h2><p class="small">Undergrad Information Technology</p></div>
+	<img src="images/blank.png" alt="" /><div id="content" style="height:200px;width:250px;float:left;"><h2>Dr. Ming Yang</h2><p class="small">Bachelor of Applied Science in Information Technology</p></div>
+	<img src="images/blank.png" alt="" /><div id="content" style="height:200px;width:300px;float:left;"><h2>Professor Susan Vande Ven</h2><p class="small">Web BSIT</p></div>
+	<img src="images/blank.png" alt="" /><div id="content" style="height:200px;width:250px;float:left;"><h2>Dr. Jeff Chastine</h2><p class="small">Grad Computer Science</p></div>
+	<img src="images/blank.png" alt="" /><div id="content" style="height:200px;width:250px;float:left;"><h2>Dr. Svetlana Peltsverger</h2><p class="small">Grad Information Technology</p></div>
+</div>	
 		<!-- /features -->
 	</div>
 </div><!-- /page_content --!>
@@ -129,11 +116,11 @@
 //set the current page tab
 $(function()
 {
-	$("#nav ul #home").addClass("current_page_item");
+	$("#nav ul #advisers").addClass("current_page_item");
 });
 </script>
 <!-- /SCRIPTS -->
 
 </body>
 </html>
-<!-- PAGE CREATED ON: Thu, 02 Oct 2014 15:24:46 +0000-->
+<!-- PAGE CREATED ON: Thu, 02 Oct 2014 15:25:55 +0000-->

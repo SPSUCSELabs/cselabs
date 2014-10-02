@@ -7,10 +7,9 @@
  * @author Noah Harvey <nharvey@spsu.edu>
  */
 /* get login data */
-global $editable;
-global $login;
+global $conf;
 
-include("inc/funcs.php");
+include($conf['INCPATH']."/funcs.php");
 ?>
 <!DOCTYPE html>
 
@@ -35,9 +34,7 @@ include("inc/funcs.php");
 		<!-- /banner -->
 	
 		<!-- ******************** features ******************** -->
-		<div class="row">
-			<?php	include($pagepath); ?>
-		</div>
+		<?php	include($pagepath); ?>
 		<!-- /features -->
 	</div>
 </div><!-- /page_content --!>

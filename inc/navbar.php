@@ -15,14 +15,14 @@
 				</div>
 				<nav id="nav">
 					<ul>
-						<li id="home"><a href="index.html">Homepage</a></li>
-						<li id="labInfo"><a href="labinfo.html">Lab Info</a></li>
-						<li id="faculty"><a href="faculty.html">Faculty</a></li>
-						<li id="staff"><a href="staff.html">Staff</a></li>
-						<li id="advisors"><a href="advisors.html">Advisers</a></li>
-						<li id="waitlist"><a href="Waitlist\default.aspx">Waitlist</a></li>
-						<li id="virtualMachines"><a href="vms.html">Virtual Machines</a></li>
-						<li id="studentOrgs"><a href="clubs.html">Student Organizations</a></li>
+						<li id="home"><a href="<?php pageLink("home"); ?>">Homepage</a></li>
+						<li id="labinfo"><a href="<?php pageLink("labinfo"); ?>">Lab Info</a></li>
+						<li id="faculty"><a href="<?php pageLink("faculty"); ?>">Faculty</a></li>
+						<li id="staff"><a href="<?php pageLink("staff"); ?>">Staff</a></li>
+						<li id="advisers"><a href="<?php pageLink("advisers"); ?>">Advisers</a></li>
+						<li id="waitlist"><a href="Waitlist/Default.aspx">Waitlist</a></li>
+						<li id="virtualMachines"><a href="<?php pageLink("virtualMachines"); ?>">Virtual Machines</a></li>
+						<li id="clubs"><a href="<?php pageLink("clubs"); ?>">Student Organizations</a></li>
 					</ul>
 				</nav>
 			</div>

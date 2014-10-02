@@ -71,37 +71,57 @@
 		<!-- /banner -->
 	
 		<!-- ******************** features ******************** -->
-		<div class="row">
+		<center>
+	<p><font size="7" color="black">CSE Lab Manager - Christine Bryant - J220A</font></p><br />
+	<p><font size="6" color="black">Daytime Student Manager - Brittany McGriff &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Night-time Student Manager - John Eidson </font></p><br />
+</center>
+<div class="row">
 	<div class="3u">
 		<section class="first">
-			<h2>Greg Scott</h2>
-			<p>Director of CSE Technology</p>
+			<h2>Main Lab - J263</h2>
+			<p>Monday - Thursday <br /> 12pm - 12am</p>
+			<p>---------------------</p>
+			<p>Friday - Sunday <br /> 12pm - 8pm</p>
 		</section>							
 	</div>
 	<div class="3u">
 		<section>
-			<h2>Christine Bryant</h2>
-			<p>CSE Lab Manager</p>
+			<h2>Game Lab - J202</h2>
+			<p>Friday - Sunday <br /> 12pm - 12am</p>
 		</section>							
 	</div>
 	<div class="3u">
 		<section>
-			<h2>Ron Sweatland</h2>
-			<p>Director of CSE Data Center Operations <br />Director of the Academic Research Network</p>
+			<h2>Tutors - J220B</h2>
+			<p>Monday, Wednesday & Friday <br /> 12pm - 4pm</p>
+			<p>----------------------</p>
+			<p>Sunday, Tuesday & Thursday <br /> 12pm - 8pm</p>
 		</section>							
 	</div>
 	<div class="3u">
 		<section class="last">
-			<h2>Student Lab Managers</h2>
-			
+			<h2>Student Tutors</h2>
+			<p>
 			<ul>
-			  <li>Brittany McGriff</li>
-			  <li>John Eidson</li>
+			  <li>Joseph Burley - Sunday 12pm - 8pm</li>
+			  <li>Srinidhi Naik - Monday 12pm - 4pm</li>
+			  <li>Diane Kamning - Tuesday 12pm - 4pm</li>
+			  <li>Tim Sassone - Tuesday 4pm - 8pm</li>
+			  <li>William King - Tuesday 4pm - 8pm</li>
+			  <li>Srinidhi Naik - Wednesday 12pm - 4pm</li>
+			  <li>William King - Thursday 12pm - 4pm</li>
+			  <li>Ryan Zappalla - Thursday 4pm - 8pm</li>
+			  <li>Diane Kamning - Thursday 4pm - 8pm</li>
+			  <li>Tim Sassone - Friday 12pm - 4pm</li>
+
 			</ul>
 			
+			</p>
 		</section>							
 	</div>
 </div>
+
+
 		<!-- /features -->
 	</div>
 </div><!-- /page_content --!>
@@ -129,11 +149,11 @@
 //set the current page tab
 $(function()
 {
-	$("#nav ul #home").addClass("current_page_item");
+	$("#nav ul #labinfo").addClass("current_page_item");
 });
 </script>
 <!-- /SCRIPTS -->
 
 </body>
 </html>
-<!-- PAGE CREATED ON: Thu, 02 Oct 2014 15:24:46 +0000-->
+<!-- PAGE CREATED ON: Thu, 02 Oct 2014 15:24:20 +0000-->

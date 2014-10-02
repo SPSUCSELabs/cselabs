@@ -71,34 +71,40 @@
 		<!-- /banner -->
 	
 		<!-- ******************** features ******************** -->
-		<div class="row">
+		<center>
+	<p>
+		<font size="7" color="black">Dean of CSE - Dr. Becky Rutherfoord</font>
+	</p>
+	<br/>
+	
+	<p>
+		<font size="6" color="black">IT Chair - Dr. Svetlana Peltsverger &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CSSWE Chair - Dr. Jon Preston </font>
+	</p>
+	<br/>
+</center>
+<div class="row">
 	<div class="3u">
 		<section class="first">
-			<h2>Greg Scott</h2>
-			<p>Director of CSE Technology</p>
+			<h2>Computer Science</h2>
+			<p>List of Professors</p>
 		</section>							
 	</div>
 	<div class="3u">
 		<section>
-			<h2>Christine Bryant</h2>
-			<p>CSE Lab Manager</p>
+			<h2>Game Design</h2>
+			<p>List of Professors</p>
 		</section>							
 	</div>
 	<div class="3u">
 		<section>
-			<h2>Ron Sweatland</h2>
-			<p>Director of CSE Data Center Operations <br />Director of the Academic Research Network</p>
+			<h2>Information Technology</h2>
+			<p>List of Professors</p>
 		</section>							
 	</div>
 	<div class="3u">
 		<section class="last">
-			<h2>Student Lab Managers</h2>
-			
-			<ul>
-			  <li>Brittany McGriff</li>
-			  <li>John Eidson</li>
-			</ul>
-			
+			<h2>Software Engineering</h2>
+			<p>List of Professors</p>
 		</section>							
 	</div>
 </div>
@@ -129,11 +135,11 @@
 //set the current page tab
 $(function()
 {
-	$("#nav ul #home").addClass("current_page_item");
+	$("#nav ul #faculty").addClass("current_page_item");
 });
 </script>
 <!-- /SCRIPTS -->
 
 </body>
 </html>
-<!-- PAGE CREATED ON: Thu, 02 Oct 2014 15:24:46 +0000-->
+<!-- PAGE CREATED ON: Thu, 02 Oct 2014 15:24:49 +0000-->
